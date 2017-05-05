@@ -1,0 +1,43 @@
+.wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: space-around; }
+
+.wrapper > div {
+  text-align: center;
+  opacity: 0.5;
+  border: solid 2px; }
+
+.one {
+  background-color: #ff5566;
+  grid-column: 1;
+  grid-row: 1; }
+
+.two {
+  background-color: #55ffaa;
+  grid-column: 2 / 4;
+  grid-row: 1 / span 3; }
+
+.three {
+  background-color: #7777ff;
+  grid-row: 2 / 5;
+  grid-column: 1; }
+
+.four {
+  background-color: #ffc985;
+  grid-column: 3;
+  grid-row: 1 / 4; }
+
+.five {
+  background-color: #b0f8ff;
+  grid-column: 2;
+  grid-row: 4; }
+
+.six {
+  background-color: #d991ff;
+  grid-column: 3;
+  grid-row: 4; }
+
+/*# sourceMappingURL=style.css.map */
